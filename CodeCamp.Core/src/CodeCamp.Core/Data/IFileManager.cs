@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace CodeCamp.Core.Data
+﻿namespace CodeCamp.Core.Data
 {
     public interface IFileManager
     {

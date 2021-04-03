@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
-using Cirrious.MvvmCross.Plugins.Sqlite;
-using SQLite;
+using Cirrious.MvvmCross.Community.Plugins.Sqlite;
+using Community.SQLite;
 
 namespace CodeCamp.Core.Tests.RepositoryTests
 {
@@ -26,6 +26,16 @@ namespace CodeCamp.Core.Tests.RepositoryTests
             var filePath = Path.Combine(_dirPath, address);
 
             return new SQLiteConnection(filePath, SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
+        }
+
+        public ISQLiteConnection CreateInMemory()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ISQLiteConnection CreateTemp()
+        {
+            throw new NotImplementedException();
         }
 
         public void CleanUp()

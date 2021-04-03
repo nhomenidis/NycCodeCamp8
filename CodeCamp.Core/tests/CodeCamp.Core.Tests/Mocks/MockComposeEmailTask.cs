@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Cirrious.MvvmCross.Plugins.Email;
+using MvvmCross.Plugins.Email;
 
 namespace CodeCamp.Core.Tests.Mocks
 {
@@ -11,8 +11,9 @@ namespace CodeCamp.Core.Tests.Mocks
         {
             ComposedEmailAddresses = new List<string>();
         }
-
-        public void ComposeEmail(string to, string cc, string subject, string body, bool isHtml)
+        
+        public void ComposeEmail(string to, string cc = null, string subject = null, string body = null, bool isHtml = false,
+            string dialogTitle = null)
         {
             ComposedEmailAddresses.Add(to);
         }

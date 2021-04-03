@@ -1,5 +1,5 @@
-﻿using Cirrious.MvvmCross.Plugins.Messenger;
-using CodeCamp.Core.ViewModels.Annotations;
+﻿using CodeCamp.Core.ViewModels.Annotations;
+using MvvmCross.Plugins.Messenger;
 
 namespace CodeCamp.Core.ViewModels
 {

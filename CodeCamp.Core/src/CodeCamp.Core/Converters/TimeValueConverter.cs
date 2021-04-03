@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
-using Cirrious.CrossCore.Converters;
 using CodeCamp.Core.Extensions;
+using MvvmCross.Platform.Converters;
 
 namespace CodeCamp.Core.Converters
 {

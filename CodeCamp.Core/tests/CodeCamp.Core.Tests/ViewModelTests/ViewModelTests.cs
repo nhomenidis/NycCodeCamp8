@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Cirrious.MvvmCross.Plugins.Messenger;
 using CodeCamp.Core.Messaging.Messages;
 using CodeCamp.Core.ViewModels;
 using CodeCamp.Core.ViewModels.Annotations;
+using MvvmCross.Plugins.Messenger;
 using NUnit.Framework;
 
 namespace CodeCamp.Core.Tests.ViewModelTests
@@ -93,8 +93,7 @@ namespace CodeCamp.Core.Tests.ViewModelTests
 
             Assert.IsFalse(viewModel.IsLoading);
         }
-
-
+        
         class TestViewModel : ViewModelBase
         {
             public TestViewModel(IMvxMessenger messenger)

@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace CodeCamp.Core.Data.Entities
+﻿namespace CodeCamp.Core.Data.Entities
 {
     public class Sponsor
     {

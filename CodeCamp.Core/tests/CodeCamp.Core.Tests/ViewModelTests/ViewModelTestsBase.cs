@@ -1,12 +1,13 @@
-﻿using Cirrious.CrossCore;
-using Cirrious.CrossCore.Core;
-using Cirrious.MvvmCross.Platform;
-using Cirrious.MvvmCross.Plugins.Json;
-using Cirrious.MvvmCross.Plugins.Messenger;
-using Cirrious.MvvmCross.Test.Core;
-using Cirrious.MvvmCross.Views;
-using CodeCamp.Core.Services;
+﻿using CodeCamp.Core.Services;
 using CodeCamp.Core.Tests.Mocks;
+using MvvmCross.Core.Platform;
+using MvvmCross.Core.Views;
+using MvvmCross.Platform;
+using MvvmCross.Platform.Core;
+using MvvmCross.Plugins.Json;
+using MvvmCross.Plugins.Messenger;
+using MvvmCross.Plugins.WebBrowser;
+using MvvmCross.Test.Core;
 using NUnit.Framework;
 
 namespace CodeCamp.Core.Tests.ViewModelTests

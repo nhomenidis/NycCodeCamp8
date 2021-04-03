@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cirrious.MvvmCross.Plugins.Json;
 using CodeCamp.Core.Data.Entities;
 using CodeCamp.Core.Services;
 using CodeCamp.Core.Tests.Mocks;
+using MvvmCross.Plugins.Json;
 using NUnit.Framework;
 
 namespace CodeCamp.Core.Tests.ServiceTests

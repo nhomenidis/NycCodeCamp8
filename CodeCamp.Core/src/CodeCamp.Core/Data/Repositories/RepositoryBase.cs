@@ -1,5 +1,4 @@
-﻿using System;
-using Cirrious.MvvmCross.Plugins.Sqlite;
+﻿using Cirrious.MvvmCross.Community.Plugins.Sqlite;
 
 namespace CodeCamp.Core.Data.Repositories
 {

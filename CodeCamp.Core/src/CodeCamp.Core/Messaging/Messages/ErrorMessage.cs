@@ -1,4 +1,4 @@
-﻿using Cirrious.MvvmCross.Plugins.Messenger;
+﻿using MvvmCross.Plugins.Messenger;
 
 namespace CodeCamp.Core.Messaging.Messages
 {

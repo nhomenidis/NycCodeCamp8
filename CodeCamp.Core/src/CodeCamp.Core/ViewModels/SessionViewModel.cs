@@ -1,9 +1,8 @@
-﻿using System.Threading.Tasks;
-using System.Windows.Input;
-using Cirrious.MvvmCross.Plugins.Messenger;
-using Cirrious.MvvmCross.ViewModels;
+﻿using System.Windows.Input;
 using CodeCamp.Core.Data.Entities;
 using CodeCamp.Core.Services;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Plugins.Messenger;
 #if !WINDOWS_PHONE
 using TaskEx = System.Threading.Tasks.Task;
 #endif
@@ -27,7 +26,7 @@ namespace CodeCamp.Core.ViewModels
             set { _session = value; RaisePropertyChanged(() => Session); }
         }
 
-        public async Task Init(NavigationParameters parameters)
+        public async TaskEx Init(NavigationParameters parameters)
         {
             bool successful = await SafeOperation(
                 TaskEx.Run(async () => Session = await _campService.GetSession(parameters.Id)));

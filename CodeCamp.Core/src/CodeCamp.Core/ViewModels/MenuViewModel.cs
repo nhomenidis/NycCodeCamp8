@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Input;
-using Cirrious.MvvmCross.Plugins.Messenger;
-using Cirrious.MvvmCross.ViewModels;
 using CodeCamp.Core.ViewModels.Annotations;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Plugins.Messenger;
 
 namespace CodeCamp.Core.ViewModels
 {

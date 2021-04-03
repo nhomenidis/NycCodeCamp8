@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cirrious.CrossCore.Platform;
 using CodeCamp.Core.Data;
 using CodeCamp.Core.Data.Entities;
 using CodeCamp.Core.Network;
+using MvvmCross.Platform.Platform;
 
 namespace CodeCamp.Core.Services
 {

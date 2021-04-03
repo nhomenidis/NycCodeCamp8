@@ -1,11 +1,12 @@
 using System;
-using Cirrious.CrossCore.Converters;
+using System.Globalization;
+using MvvmCross.Platform.Converters;
 
 namespace CodeCamp.Core.Converters
 {
     public class MultiLineTextValueConverter : MvxValueConverter
     {
-        public override object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             if (value == null)
                 return null;

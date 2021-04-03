@@ -1,13 +1,13 @@
-﻿using Cirrious.CrossCore;
-using Cirrious.CrossCore.IoC;
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.Plugins.Messenger;
-using Cirrious.MvvmCross.ViewModels;
-using CodeCamp.Core.Data;
+﻿using CodeCamp.Core.Data;
 using CodeCamp.Core.Messaging;
 using CodeCamp.Core.Messaging.Messages;
 using CodeCamp.Core.Network;
 using CodeCamp.Core.ViewModels;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
+using MvvmCross.Platform.IoC;
+using MvvmCross.Platform.Platform;
+using MvvmCross.Plugins.Messenger;
 
 namespace CodeCamp.Core
 {

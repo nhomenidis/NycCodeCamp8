@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cirrious.MvvmCross.Platform;
 using CodeCamp.Core.Data.Entities;
 using CodeCamp.Core.Messaging.Messages;
 using CodeCamp.Core.ViewModels;
+using MvvmCross.Core.Platform;
 using NUnit.Framework;
 
 namespace CodeCamp.Core.Tests.ViewModelTests

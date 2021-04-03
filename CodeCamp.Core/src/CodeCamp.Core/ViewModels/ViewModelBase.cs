@@ -2,11 +2,11 @@
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading.Tasks;
-using Cirrious.MvvmCross.Plugins.Messenger;
-using Cirrious.MvvmCross.ViewModels;
 using CodeCamp.Core.Extensions;
 using CodeCamp.Core.Messaging.Messages;
 using CodeCamp.Core.ViewModels.Annotations;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Plugins.Messenger;
 
 namespace CodeCamp.Core.ViewModels
 {

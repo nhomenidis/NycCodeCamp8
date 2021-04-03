@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
-using System.Threading.Tasks;
 using System.Windows.Input;
-using Cirrious.MvvmCross.Plugins.Email;
-using Cirrious.MvvmCross.Plugins.Messenger;
-using Cirrious.MvvmCross.ViewModels;
 using CodeCamp.Core.Data.Entities;
 using CodeCamp.Core.Services;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Plugins.Email;
+using MvvmCross.Plugins.Messenger;
 #if !WINDOWS_PHONE
 using TaskEx = System.Threading.Tasks.Task;
 #endif
@@ -56,7 +55,7 @@ namespace CodeCamp.Core.ViewModels
             }
         }
 
-        public async Task Init(NavigationParameters parameters)
+        public async TaskEx Init(NavigationParameters parameters)
         {
             bool successful = await SafeOperation(
                 TaskEx.Run(async () =>

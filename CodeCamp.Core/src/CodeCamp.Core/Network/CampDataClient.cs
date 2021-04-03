@@ -1,8 +1,7 @@
-﻿using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Threading.Tasks;
-using Cirrious.CrossCore.Platform;
 using CodeCamp.Core.Data.Entities;
+using MvvmCross.Platform.Platform;
 
 namespace CodeCamp.Core.Network
 {

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Cirrious.MvvmCross.Plugins.WebBrowser;
+using MvvmCross.Plugins.WebBrowser;
 
 namespace CodeCamp.Core.Tests.Mocks
 {
